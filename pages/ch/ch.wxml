@@ -1,0 +1,59 @@
+<!--pages/ch/ch.wxml-->
+<scroll-view class="container" scroll-y>
+
+<view class="container1">
+  <image src="/image/ex/2.jpg"></image>
+</view>
+
+<view class="container2">
+  <text class="t1">广州市番禺区</text>
+  <text class="t2">食在广州，味在番禺</text>
+</view>
+
+<view class="container3">
+  <text class="t3">周边游玩榜单</text>
+  <view class="c3_1">
+    <view class="c3_2">
+      <image class="image2" src="/image/ex/6.jpg"></image>
+      <view class="c3_3">
+        <text>长隆野生动物园</text>
+        <text>评分： </text>
+        <text>"家庭出游最佳选择"</text>
+        <text>位置：</text>
+      </view>
+    </view>
+
+    <view class="c3_2">
+      <image class="image2" src="/image/ex/5.jpg"></image>
+      <view class="c3_3">
+        <text>长隆野生动物园</text>
+        <text>评分： </text>
+        <text>"家庭出游最佳选择"</text>
+        <text>位置：</text>
+      </view>
+    </view>
+
+    <view class="c3_2">
+      <image class="image2" src="/image/ex/4.jpg"></image>
+      <view class="c3_3">
+        <text>长隆野生动物园</text>
+        <text>评分： </text>
+        <text>"家庭出游最佳选择"</text>
+        <text>位置：</text>
+      </view>
+    </view>
+
+    <view class="c3_2">
+      <image class="image2" src="/image/ex/3.jpg"></image>
+      <view class="c3_3">
+        <text>长隆野生动物园</text>
+        <text>评分： </text>
+        <text>"家庭出游最佳选择"</text>
+        <text>位置：</text>
+      </view>
+    </view>
+    
+  </view>
+</view>
+
+</scroll-view>

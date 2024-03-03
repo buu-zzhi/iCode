@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/Attractions/Attractions",
+    "pages/delicacies/delicacies",
+    "pages/ch/ch",
+    "pages/Attractions_ex/Attractions_ex",
+    "pages/area/hp/hp",
+    "pages/area/yx/yx",
+    "pages/area/py/py",
+    "pages/area/hz/hz",
+    "pages/area/by/by",
+    "pages/area/ns/ns",
+    "pages/area/hd/hd",
+    "pages/area/zc/zc",
+    "pages/area/lw/lw",
+    "pages/area/ch/ch"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "style": "v2",
+  "renderer": "skyline",
+  "rendererOptions": {
+    "skyline": {
+      "defaultDisplayBlock": true,
+      "disableABTest": true,
+      "sdkVersionBegin": "3.0.0",
+      "sdkVersionEnd": "15.255.255"
+    }
+  },
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

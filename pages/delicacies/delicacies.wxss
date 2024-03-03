@@ -1,0 +1,5 @@
+.container{
+  padding-top: 18%;
+  height:650px;
+  width:100%;
+}

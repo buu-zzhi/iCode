@@ -1,0 +1,30 @@
+<!--pages/Attractions_ex/Attractions_ex.wxml-->
+<view class="navbar">
+  <navigator class="left-icon" open-type="navigateBack">
+    <image class="icon" src="/image/icon/back.jpg"/>
+  </navigator>
+  <navigator class="right-icon" url="/pages/index/index">
+    <image class="icon" src="/image/icon/home.jpg"/>
+  </navigator>
+</view>
+
+<scroll-view class="container" scroll-y >
+
+  <view class="c1">
+    <image class="ima1" src="/image/3.jpg"></image>
+    <view class="c1-2">
+      <text class="t1">岭南印象园</text>
+      <text class="t2">开园时间:</text>
+      <text class="t3">备注：XXXXXXXX</text>
+    </view>
+  </view>
+  <view class="c2">
+    <text class="t4">评价</text>
+    <view class="c2-1">
+      <view class="c2-1-1" wx:for="{{evaluation}}">
+        <text class="t5">{{item}}</text>
+      </view>
+    </view>
+  </view>
+
+</scroll-view>

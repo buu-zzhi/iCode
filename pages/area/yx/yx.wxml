@@ -1,0 +1,33 @@
+<view class="navbar">
+  <navigator class="left-icon" open-type="navigateBack">
+    <image class="icon" src="/image/icon/back.jpg"/>
+  </navigator>
+  <navigator class="right-icon" url="/pages/index/index">
+    <image class="icon" src="/image/icon/home.jpg"/>
+  </navigator>
+</view>
+
+
+<scroll-view class="container1" scroll-x="true">
+  <view bindtap="gototh">天河区 | </view>
+  <view bindtap="gotohp">黄浦区 | </view>
+  <view bindtap="gotoyx">越秀区 | </view>
+  <view bindtap="gotopy">番禺区 | </view>
+  <view bindtap="gotohz">海珠区 | </view>
+  <view bindtap="gotoby">白云区 | </view>
+  <view bindtap="gotons">南沙区 | </view>
+  <view bindtap="gotohd">花都区 | </view>
+  <view bindtap="gotozc">增城区 | </view>
+  <view bindtap="gotolw">荔湾区 | </view>
+  <view bindtap="gotoch">从化区 </view>
+</scroll-view>
+
+<scroll-view class="containerS" scroll-y>
+
+  <view bindtap="thLnyxy" class="containerA">
+  <image src="/image/1.jpg" mode="aspectFit" class="container2"/>
+  <text class="containerT"> 岭南印象园\n 开园时间:7:00\n 备注：XXXXXXXX</text></view>
+  
+</scroll-view>
+
+

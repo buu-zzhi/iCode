@@ -1,0 +1,52 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  background-color: #fafafa;
+}
+.left-icon {
+  display: flex;
+  align-items: center;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.container1 view {
+  width: 60px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  display: inline-block;
+}
+.container1 {
+  white-space: nowrap;
+  display: flex;
+  justify-content: space-around;
+}
+.container1 view:nth-child(10) {
+  background-color: rgba(29, 138, 56, 0.582);
+}
+
+.container2 {
+  width: 130px;
+  height: 130px;
+}
+
+.containerA {
+  width: 300px;
+  height: 130px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  border: 1px solid black;
+}
+
+
+.containerS {
+  /* display: inline-block; */
+  height: 470px;
+  width: 310px;
+}

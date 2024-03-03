@@ -1,0 +1,25 @@
+/**index.wxss**/
+page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.swiper{
+  height:400rpx;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  height: 150rpx;
+  padding-top: 400rpx;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+.container view{
+  height: 100rpx;
+  width:250rpx;
+  text-align: center;
+  line-height: 100rpx;
+  border-radius: 20%;
+}
